@@ -1,0 +1,591 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>景德镇未来 7 天天气可视化</title>
+<script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: "Microsoft YaHei", "PingFang SC", sans-serif;
+    background: linear-gradient(135deg, #e0f7fa 0%, #f1f8e9 100%);
+    color: #333;
+    min-height: 100vh;
+  }
+  .container { max-width: 1100px; margin: 0 auto; padding: 30px 20px; }
+  .header { text-align: center; margin-bottom: 30px; }
+  .header h1 { font-size: 28px; margin: 0 0 8px; color: #00695c; }
+  .header p { color: #607d8b; font-size: 14px; margin: 0; }
+  .card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    padding: 20px;
+    margin-bottom: 24px;
+  }
+  .card h2 {
+    font-size: 18px;
+    color: #00695c;
+    margin: 0 0 12px;
+    border-left: 4px solid #26a69a;
+    padding-left: 10px;
+  }
+  .note {
+    font-size: 13px;
+    color: #78909c;
+    margin-top: 12px;
+    line-height: 1.7;
+    background: #f5f9f8;
+    border-radius: 6px;
+    padding: 10px 12px;
+  }
+  .footer { text-align: center; font-size: 12px; color: #90a4ae; margin-top: 20px; }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <h1>🌤 景德镇未来 7 天天气可视化</h1>
+    <p>数据来源：中国天气网 · 生成时间：2026-10-24 17:27</p>
+  </div>
+
+  <div class="card">
+    <h2>温度趋势</h2>
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+                <script type="text/javascript" src="https://assets.pyecharts.org/assets/v6/echarts.min.js"></script>
+
+    
+</head>
+<body >
+    <div id="4760808704df4565880beb5a99bf883f" class="chart-container" style="width:100%; height:420px; "></div>
+    <script>
+        var chart_4760808704df4565880beb5a99bf883f = echarts.init(
+            document.getElementById('4760808704df4565880beb5a99bf883f'), 'white', {renderer: 'canvas', locale: 'ZH'});
+        var option_4760808704df4565880beb5a99bf883f = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
+    },
+    "series": [
+        {
+            "type": "line",
+            "name": "\u6700\u9ad8\u6e29",
+            "connectNulls": false,
+            "xAxisIndex": 0,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": true,
+            "clip": true,
+            "step": false,
+            "stackStrategy": "samesign",
+            "data": [
+                [
+                    "24\u65e5\uff08\u4eca\u5929\uff09",
+                    26
+                ],
+                [
+                    "25\u65e5\uff08\u660e\u5929\uff09",
+                    25
+                ],
+                [
+                    "26\u65e5\uff08\u540e\u5929\uff09",
+                    27
+                ],
+                [
+                    "27\u65e5\uff08\u5468\u4e8c\uff09",
+                    25
+                ],
+                [
+                    "28\u65e5\uff08\u5468\u4e09\uff09",
+                    24
+                ],
+                [
+                    "29\u65e5\uff08\u5468\u56db\uff09",
+                    25
+                ],
+                [
+                    "30\u65e5\uff08\u5468\u4e94\uff09",
+                    28
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": true,
+                "margin": 8,
+                "richInheritPlainLabel": true,
+                "valueAnimation": false
+            },
+            "logBase": 10,
+            "seriesLayoutBy": "column",
+            "lineStyle": {
+                "show": false
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "markPoint": {
+                "data": [
+                    {
+                        "name": "\u6700\u9ad8",
+                        "type": "max"
+                    }
+                ]
+            },
+            "zlevel": 0,
+            "z": 0
+        },
+        {
+            "type": "line",
+            "name": "\u6700\u4f4e\u6e29",
+            "connectNulls": false,
+            "xAxisIndex": 0,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": true,
+            "clip": true,
+            "step": false,
+            "stackStrategy": "samesign",
+            "data": [
+                [
+                    "24\u65e5\uff08\u4eca\u5929\uff09",
+                    18
+                ],
+                [
+                    "25\u65e5\uff08\u660e\u5929\uff09",
+                    17
+                ],
+                [
+                    "26\u65e5\uff08\u540e\u5929\uff09",
+                    16
+                ],
+                [
+                    "27\u65e5\uff08\u5468\u4e8c\uff09",
+                    15
+                ],
+                [
+                    "28\u65e5\uff08\u5468\u4e09\uff09",
+                    13
+                ],
+                [
+                    "29\u65e5\uff08\u5468\u56db\uff09",
+                    16
+                ],
+                [
+                    "30\u65e5\uff08\u5468\u4e94\uff09",
+                    20
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": true,
+                "margin": 8,
+                "richInheritPlainLabel": true,
+                "valueAnimation": false
+            },
+            "logBase": 10,
+            "seriesLayoutBy": "column",
+            "lineStyle": {
+                "show": false
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "markPoint": {
+                "data": [
+                    {
+                        "name": "\u6700\u4f4e",
+                        "type": "min"
+                    }
+                ]
+            },
+            "zlevel": 0,
+            "z": 0
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u6700\u9ad8\u6e29",
+                "\u6700\u4f4e\u6e29"
+            ],
+            "selected": {},
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderRadius": 0,
+            "pageButtonItemGap": 5,
+            "pageButtonPosition": "end",
+            "pageFormatter": "{current}/{total}",
+            "pageIconColor": "#2f4554",
+            "pageIconInactiveColor": "#aaa",
+            "pageIconSize": 15,
+            "animationDurationUpdate": 800,
+            "selector": false,
+            "selectorPosition": "auto",
+            "selectorItemGap": 7,
+            "selectorButtonGap": 10,
+            "triggerEvent": false
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "axis",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "enterable": false,
+        "confine": false,
+        "appendToBody": false,
+        "transitionDuration": 0.4,
+        "displayTransition": true,
+        "textStyle": {
+            "fontSize": 14,
+            "richInheritPlainLabel": true
+        },
+        "borderWidth": 0,
+        "padding": 5,
+        "order": "seriesAsc"
+    },
+    "xAxis": [
+        {
+            "name": "\u65e5\u671f",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "nameTruncate": {},
+            "nameMoveOverlap": true,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "silent": false,
+            "triggerEvent": false,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": false
+                }
+            },
+            "animation": true,
+            "animationThreshold": 2000,
+            "animationDuration": 1000,
+            "animationEasing": "cubicOut",
+            "animationDelay": 0,
+            "animationDurationUpdate": 300,
+            "animationEasingUpdate": "cubicOut",
+            "animationDelayUpdate": 0,
+            "data": [
+                "24\u65e5\uff08\u4eca\u5929\uff09",
+                "25\u65e5\uff08\u660e\u5929\uff09",
+                "26\u65e5\uff08\u540e\u5929\uff09",
+                "27\u65e5\uff08\u5468\u4e8c\uff09",
+                "28\u65e5\uff08\u5468\u4e09\uff09",
+                "29\u65e5\uff08\u5468\u56db\uff09",
+                "30\u65e5\uff08\u5468\u4e94\uff09"
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "name": "\u6e29\u5ea6\uff08\u2103\uff09",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "nameTruncate": {},
+            "nameMoveOverlap": true,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "silent": false,
+            "triggerEvent": false,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": false
+                }
+            },
+            "animation": true,
+            "animationThreshold": 2000,
+            "animationDuration": 1000,
+            "animationEasing": "cubicOut",
+            "animationDelay": 0,
+            "animationDurationUpdate": 300,
+            "animationEasingUpdate": "cubicOut",
+            "animationDelayUpdate": 0
+        }
+    ],
+    "title": [
+        {
+            "show": true,
+            "text": "\u6e29\u5ea6\u8d8b\u52bf",
+            "target": "blank",
+            "subtarget": "blank",
+            "padding": 5,
+            "itemGap": 10,
+            "textAlign": "auto",
+            "textVerticalAlign": "auto",
+            "triggerEvent": false
+        }
+    ]
+};
+        chart_4760808704df4565880beb5a99bf883f.setOption(option_4760808704df4565880beb5a99bf883f);
+            window.addEventListener('resize', function(){
+                chart_4760808704df4565880beb5a99bf883f.resize();
+            })
+    </script>
+</body>
+</html>
+
+    <div class="note">最高温在 24–28℃ 之间，最低温在 13–20℃ 之间。昼夜温差最大的是 26日（后天）（温差 11℃），注意增减衣物。</div>
+  </div>
+
+  <div class="card">
+    <h2>风力等级</h2>
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+                <script type="text/javascript" src="https://assets.pyecharts.org/assets/v6/echarts.min.js"></script>
+
+    
+</head>
+<body >
+    <div id="d2ed4288f49343f39aaf919e19afae43" class="chart-container" style="width:100%; height:420px; "></div>
+    <script>
+        var chart_d2ed4288f49343f39aaf919e19afae43 = echarts.init(
+            document.getElementById('d2ed4288f49343f39aaf919e19afae43'), 'white', {renderer: 'canvas', locale: 'ZH'});
+        var option_d2ed4288f49343f39aaf919e19afae43 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
+    },
+    "series": [
+        {
+            "type": "bar",
+            "name": "\u98ce\u529b\u7b49\u7ea7",
+            "legendHoverLink": true,
+            "data": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3
+            ],
+            "realtimeSort": false,
+            "showBackground": false,
+            "stackStrategy": "samesign",
+            "cursor": "pointer",
+            "barMinHeight": 0,
+            "barCategoryGap": "20%",
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": true,
+                "margin": 8,
+                "formatter": "{c} \u7ea7",
+                "richInheritPlainLabel": true,
+                "valueAnimation": false
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u98ce\u529b\u7b49\u7ea7"
+            ],
+            "selected": {},
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderRadius": 0,
+            "pageButtonItemGap": 5,
+            "pageButtonPosition": "end",
+            "pageFormatter": "{current}/{total}",
+            "pageIconColor": "#2f4554",
+            "pageIconInactiveColor": "#aaa",
+            "pageIconSize": 15,
+            "animationDurationUpdate": 800,
+            "selector": false,
+            "selectorPosition": "auto",
+            "selectorItemGap": 7,
+            "selectorButtonGap": 10,
+            "triggerEvent": false
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "axis",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "enterable": false,
+        "confine": false,
+        "appendToBody": false,
+        "transitionDuration": 0.4,
+        "displayTransition": true,
+        "textStyle": {
+            "fontSize": 14,
+            "richInheritPlainLabel": true
+        },
+        "borderWidth": 0,
+        "padding": 5,
+        "order": "seriesAsc"
+    },
+    "xAxis": [
+        {
+            "name": "\u65e5\u671f",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "nameTruncate": {},
+            "nameMoveOverlap": true,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "silent": false,
+            "triggerEvent": false,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": false
+                }
+            },
+            "animation": true,
+            "animationThreshold": 2000,
+            "animationDuration": 1000,
+            "animationEasing": "cubicOut",
+            "animationDelay": 0,
+            "animationDurationUpdate": 300,
+            "animationEasingUpdate": "cubicOut",
+            "animationDelayUpdate": 0,
+            "data": [
+                "24\u65e5\uff08\u4eca\u5929\uff09",
+                "25\u65e5\uff08\u660e\u5929\uff09",
+                "26\u65e5\uff08\u540e\u5929\uff09",
+                "27\u65e5\uff08\u5468\u4e8c\uff09",
+                "28\u65e5\uff08\u5468\u4e09\uff09",
+                "29\u65e5\uff08\u5468\u56db\uff09",
+                "30\u65e5\uff08\u5468\u4e94\uff09"
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "name": "\u98ce\u529b\uff08\u7ea7\uff09",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "nameTruncate": {},
+            "nameMoveOverlap": true,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "max": 6,
+            "minInterval": 0,
+            "silent": false,
+            "triggerEvent": false,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": false
+                }
+            },
+            "animation": true,
+            "animationThreshold": 2000,
+            "animationDuration": 1000,
+            "animationEasing": "cubicOut",
+            "animationDelay": 0,
+            "animationDurationUpdate": 300,
+            "animationEasingUpdate": "cubicOut",
+            "animationDelayUpdate": 0
+        }
+    ],
+    "title": [
+        {
+            "show": true,
+            "text": "\u98ce\u529b\u7b49\u7ea7",
+            "target": "blank",
+            "subtarget": "blank",
+            "padding": 5,
+            "itemGap": 10,
+            "textAlign": "auto",
+            "textVerticalAlign": "auto",
+            "triggerEvent": false
+        }
+    ]
+};
+        chart_d2ed4288f49343f39aaf919e19afae43.setOption(option_d2ed4288f49343f39aaf919e19afae43);
+            window.addEventListener('resize', function(){
+                chart_d2ed4288f49343f39aaf919e19afae43.resize();
+            })
+    </script>
+</body>
+</html>
+
+    <div class="note">未来 7 天风力整体平稳，最大风力出现在 24日（今天）（<3级，北风）。</div>
+  </div>
+
+  <div class="footer">本页面由 Python 爬虫 + pyecharts 自动生成 · 重新运行脚本即可更新数据</div>
+</div>
+</body>
+</html>

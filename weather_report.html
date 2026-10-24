@@ -9,38 +9,25 @@
 <style>
   * { box-sizing: border-box; }
   body {
-    margin: 0;
-    font-family: "Microsoft YaHei", "PingFang SC", sans-serif;
+    margin: 0; font-family: "Microsoft YaHei", "PingFang SC", sans-serif;
     background: linear-gradient(135deg, #e0f7fa 0%, #f1f8e9 100%);
-    color: #333;
-    min-height: 100vh;
+    color: #333; min-height: 100vh;
   }
   .container { max-width: 1100px; margin: 0 auto; padding: 30px 20px; }
   .header { text-align: center; margin-bottom: 30px; }
   .header h1 { font-size: 28px; margin: 0 0 8px; color: #00695c; }
   .header p { color: #607d8b; font-size: 14px; margin: 0; }
   .card {
-    background: #fff;
-    border-radius: 12px;
-    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
-    padding: 20px;
-    margin-bottom: 24px;
+    background: #fff; border-radius: 12px; box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    padding: 20px; margin-bottom: 24px;
   }
   .card h2 {
-    font-size: 18px;
-    color: #00695c;
-    margin: 0 0 12px;
-    border-left: 4px solid #26a69a;
-    padding-left: 10px;
+    font-size: 18px; color: #00695c; margin: 0 0 12px;
+    border-left: 4px solid #26a69a; padding-left: 10px;
   }
   .note {
-    font-size: 13px;
-    color: #78909c;
-    margin-top: 12px;
-    line-height: 1.7;
-    background: #f5f9f8;
-    border-radius: 6px;
-    padding: 10px 12px;
+    font-size: 13px; color: #78909c; margin-top: 12px; line-height: 1.7;
+    background: #f5f9f8; border-radius: 6px; padding: 10px 12px;
   }
   .footer { text-align: center; font-size: 12px; color: #90a4ae; margin-top: 20px; }
 </style>
@@ -49,11 +36,11 @@
 <div class="container">
   <div class="header">
     <h1>🌤 景德镇未来 7 天天气可视化</h1>
-    <p>数据来源：中国天气网 · 生成时间：2026-10-24 17:27</p>
+    <p>数据来源：Open-Meteo · 生成时间：2026-10-24 17:56</p>
   </div>
 
   <div class="card">
-    <h2>温度趋势</h2>
+    <h2>温度趋势与天气状况</h2>
     <!DOCTYPE html>
 <html>
 <head>
@@ -64,11 +51,11 @@
     
 </head>
 <body >
-    <div id="4760808704df4565880beb5a99bf883f" class="chart-container" style="width:100%; height:420px; "></div>
+    <div id="6d0daf08232c42f5be8ec4ea27a4c7ae" class="chart-container" style="width:100%; height:350px; "></div>
     <script>
-        var chart_4760808704df4565880beb5a99bf883f = echarts.init(
-            document.getElementById('4760808704df4565880beb5a99bf883f'), 'white', {renderer: 'canvas', locale: 'ZH'});
-        var option_4760808704df4565880beb5a99bf883f = {
+        var chart_6d0daf08232c42f5be8ec4ea27a4c7ae = echarts.init(
+            document.getElementById('6d0daf08232c42f5be8ec4ea27a4c7ae'), 'white', {renderer: 'canvas', locale: 'ZH'});
+        var option_6d0daf08232c42f5be8ec4ea27a4c7ae = {
     "animation": true,
     "animationThreshold": 2000,
     "animationDuration": 1000,
@@ -94,32 +81,32 @@
             "stackStrategy": "samesign",
             "data": [
                 [
-                    "24\u65e5\uff08\u4eca\u5929\uff09",
-                    26
-                ],
-                [
-                    "25\u65e5\uff08\u660e\u5929\uff09",
+                    "10\u670824\u65e5\uff08\u5468\u516d\uff09",
                     25
                 ],
                 [
-                    "26\u65e5\uff08\u540e\u5929\uff09",
-                    27
-                ],
-                [
-                    "27\u65e5\uff08\u5468\u4e8c\uff09",
-                    25
-                ],
-                [
-                    "28\u65e5\uff08\u5468\u4e09\uff09",
+                    "10\u670825\u65e5\uff08\u5468\u65e5\uff09",
                     24
                 ],
                 [
-                    "29\u65e5\uff08\u5468\u56db\uff09",
+                    "10\u670826\u65e5\uff08\u5468\u4e00\uff09",
+                    27
+                ],
+                [
+                    "10\u670827\u65e5\uff08\u5468\u4e8c\uff09",
+                    26
+                ],
+                [
+                    "10\u670828\u65e5\uff08\u5468\u4e09\uff09",
+                    24
+                ],
+                [
+                    "10\u670829\u65e5\uff08\u5468\u56db\uff09",
                     25
                 ],
                 [
-                    "30\u65e5\uff08\u5468\u4e94\uff09",
-                    28
+                    "10\u670830\u65e5\uff08\u5468\u4e94\uff09",
+                    27
                 ]
             ],
             "hoverAnimation": true,
@@ -161,32 +148,32 @@
             "stackStrategy": "samesign",
             "data": [
                 [
-                    "24\u65e5\uff08\u4eca\u5929\uff09",
-                    18
+                    "10\u670824\u65e5\uff08\u5468\u516d\uff09",
+                    16
                 ],
                 [
-                    "25\u65e5\uff08\u660e\u5929\uff09",
+                    "10\u670825\u65e5\uff08\u5468\u65e5\uff09",
                     17
                 ],
                 [
-                    "26\u65e5\uff08\u540e\u5929\uff09",
+                    "10\u670826\u65e5\uff08\u5468\u4e00\uff09",
                     16
                 ],
                 [
-                    "27\u65e5\uff08\u5468\u4e8c\uff09",
+                    "10\u670827\u65e5\uff08\u5468\u4e8c\uff09",
+                    16
+                ],
+                [
+                    "10\u670828\u65e5\uff08\u5468\u4e09\uff09",
+                    16
+                ],
+                [
+                    "10\u670829\u65e5\uff08\u5468\u56db\uff09",
                     15
                 ],
                 [
-                    "28\u65e5\uff08\u5468\u4e09\uff09",
-                    13
-                ],
-                [
-                    "29\u65e5\uff08\u5468\u56db\uff09",
-                    16
-                ],
-                [
-                    "30\u65e5\uff08\u5468\u4e94\uff09",
-                    20
+                    "10\u670830\u65e5\uff08\u5468\u4e94\uff09",
+                    15
                 ]
             ],
             "hoverAnimation": true,
@@ -299,13 +286,13 @@
             "animationEasingUpdate": "cubicOut",
             "animationDelayUpdate": 0,
             "data": [
-                "24\u65e5\uff08\u4eca\u5929\uff09",
-                "25\u65e5\uff08\u660e\u5929\uff09",
-                "26\u65e5\uff08\u540e\u5929\uff09",
-                "27\u65e5\uff08\u5468\u4e8c\uff09",
-                "28\u65e5\uff08\u5468\u4e09\uff09",
-                "29\u65e5\uff08\u5468\u56db\uff09",
-                "30\u65e5\uff08\u5468\u4e94\uff09"
+                "10\u670824\u65e5\uff08\u5468\u516d\uff09",
+                "10\u670825\u65e5\uff08\u5468\u65e5\uff09",
+                "10\u670826\u65e5\uff08\u5468\u4e00\uff09",
+                "10\u670827\u65e5\uff08\u5468\u4e8c\uff09",
+                "10\u670828\u65e5\uff08\u5468\u4e09\uff09",
+                "10\u670829\u65e5\uff08\u5468\u56db\uff09",
+                "10\u670830\u65e5\uff08\u5468\u4e94\uff09"
             ]
         }
     ],
@@ -354,15 +341,327 @@
         }
     ]
 };
-        chart_4760808704df4565880beb5a99bf883f.setOption(option_4760808704df4565880beb5a99bf883f);
+        chart_6d0daf08232c42f5be8ec4ea27a4c7ae.setOption(option_6d0daf08232c42f5be8ec4ea27a4c7ae);
             window.addEventListener('resize', function(){
-                chart_4760808704df4565880beb5a99bf883f.resize();
+                chart_6d0daf08232c42f5be8ec4ea27a4c7ae.resize();
             })
     </script>
 </body>
 </html>
 
-    <div class="note">最高温在 24–28℃ 之间，最低温在 13–20℃ 之间。昼夜温差最大的是 26日（后天）（温差 11℃），注意增减衣物。</div>
+    <div class="note">最高温在 24–27℃ 之间，最低温在 15–15℃ 之间。昼夜温差最大的是 10月30日（周五）（温差 12℃），注意增减衣物。</div>
+    <div class="note" style="margin-top:5px;">每日天气：10月24日（周六） 阴，10月25日（周日） 阴，10月26日（周一） 多云，10月27日（周二） 多云，10月28日（周三） 阴，10月29日（周四） 多云，10月30日（周五） 晴</div>
+  </div>
+
+  <div class="card">
+    <h2>湿度与降水量</h2>
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+                <script type="text/javascript" src="https://assets.pyecharts.org/assets/v6/echarts.min.js"></script>
+
+    
+</head>
+<body >
+    <div id="f2597c0d844b41e89f6f3fda14ba8caf" class="chart-container" style="width:100%; height:350px; "></div>
+    <script>
+        var chart_f2597c0d844b41e89f6f3fda14ba8caf = echarts.init(
+            document.getElementById('f2597c0d844b41e89f6f3fda14ba8caf'), 'white', {renderer: 'canvas', locale: 'ZH'});
+        var option_f2597c0d844b41e89f6f3fda14ba8caf = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
+    },
+    "series": [
+        {
+            "type": "bar",
+            "name": "\u964d\u6c34\u91cf (mm)",
+            "yAxisIndex": 0,
+            "legendHoverLink": true,
+            "data": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "realtimeSort": false,
+            "showBackground": false,
+            "stackStrategy": "samesign",
+            "cursor": "pointer",
+            "barMinHeight": 0,
+            "barCategoryGap": "20%",
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": true,
+                "margin": 8,
+                "richInheritPlainLabel": true,
+                "valueAnimation": false
+            }
+        },
+        {
+            "type": "line",
+            "name": "\u76f8\u5bf9\u6e7f\u5ea6 (%)",
+            "connectNulls": false,
+            "xAxisIndex": 0,
+            "yAxisIndex": 1,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": true,
+            "clip": true,
+            "step": false,
+            "stackStrategy": "samesign",
+            "data": [
+                [
+                    "10\u670824\u65e5\uff08\u5468\u516d\uff09",
+                    85
+                ],
+                [
+                    "10\u670825\u65e5\uff08\u5468\u65e5\uff09",
+                    90
+                ],
+                [
+                    "10\u670826\u65e5\uff08\u5468\u4e00\uff09",
+                    95
+                ],
+                [
+                    "10\u670827\u65e5\uff08\u5468\u4e8c\uff09",
+                    80
+                ],
+                [
+                    "10\u670828\u65e5\uff08\u5468\u4e09\uff09",
+                    78
+                ],
+                [
+                    "10\u670829\u65e5\uff08\u5468\u56db\uff09",
+                    86
+                ],
+                [
+                    "10\u670830\u65e5\uff08\u5468\u4e94\uff09",
+                    94
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": true,
+                "margin": 8,
+                "richInheritPlainLabel": true,
+                "valueAnimation": false
+            },
+            "logBase": 10,
+            "seriesLayoutBy": "column",
+            "lineStyle": {
+                "show": false
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "zlevel": 0,
+            "z": 0
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u964d\u6c34\u91cf (mm)",
+                "\u76f8\u5bf9\u6e7f\u5ea6 (%)"
+            ],
+            "selected": {},
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderRadius": 0,
+            "pageButtonItemGap": 5,
+            "pageButtonPosition": "end",
+            "pageFormatter": "{current}/{total}",
+            "pageIconColor": "#2f4554",
+            "pageIconInactiveColor": "#aaa",
+            "pageIconSize": 15,
+            "animationDurationUpdate": 800,
+            "selector": false,
+            "selectorPosition": "auto",
+            "selectorItemGap": 7,
+            "selectorButtonGap": 10,
+            "triggerEvent": false
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "axis",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "cross"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "enterable": false,
+        "confine": false,
+        "appendToBody": false,
+        "transitionDuration": 0.4,
+        "displayTransition": true,
+        "textStyle": {
+            "fontSize": 14,
+            "richInheritPlainLabel": true
+        },
+        "borderWidth": 0,
+        "padding": 5,
+        "order": "seriesAsc"
+    },
+    "xAxis": [
+        {
+            "name": "\u65e5\u671f",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "nameTruncate": {},
+            "nameMoveOverlap": true,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "silent": false,
+            "triggerEvent": false,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": false
+                }
+            },
+            "animation": true,
+            "animationThreshold": 2000,
+            "animationDuration": 1000,
+            "animationEasing": "cubicOut",
+            "animationDelay": 0,
+            "animationDurationUpdate": 300,
+            "animationEasingUpdate": "cubicOut",
+            "animationDelayUpdate": 0,
+            "data": [
+                "10\u670824\u65e5\uff08\u5468\u516d\uff09",
+                "10\u670825\u65e5\uff08\u5468\u65e5\uff09",
+                "10\u670826\u65e5\uff08\u5468\u4e00\uff09",
+                "10\u670827\u65e5\uff08\u5468\u4e8c\uff09",
+                "10\u670828\u65e5\uff08\u5468\u4e09\uff09",
+                "10\u670829\u65e5\uff08\u5468\u56db\uff09",
+                "10\u670830\u65e5\uff08\u5468\u4e94\uff09"
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "name": "\u964d\u6c34\u91cf (mm)",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "nameTruncate": {},
+            "nameMoveOverlap": true,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "min": 0,
+            "minInterval": 0,
+            "silent": false,
+            "triggerEvent": false,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": false
+                }
+            },
+            "animation": true,
+            "animationThreshold": 2000,
+            "animationDuration": 1000,
+            "animationEasing": "cubicOut",
+            "animationDelay": 0,
+            "animationDurationUpdate": 300,
+            "animationEasingUpdate": "cubicOut",
+            "animationDelayUpdate": 0
+        },
+        {
+            "type": "value",
+            "name": "\u6e7f\u5ea6 (%)",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "nameTruncate": {},
+            "nameMoveOverlap": true,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "min": 0,
+            "max": 100,
+            "minInterval": 0,
+            "silent": false,
+            "triggerEvent": false,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": false
+                }
+            },
+            "animation": true,
+            "animationThreshold": 2000,
+            "animationDuration": 1000,
+            "animationEasing": "cubicOut",
+            "animationDelay": 0,
+            "animationDurationUpdate": 300,
+            "animationEasingUpdate": "cubicOut",
+            "animationDelayUpdate": 0
+        }
+    ],
+    "color": [
+        "#3398DB",
+        "#FF7F50"
+    ],
+    "title": [
+        {
+            "show": true,
+            "text": "\u6e7f\u5ea6\u4e0e\u964d\u6c34\u91cf",
+            "target": "blank",
+            "subtarget": "blank",
+            "padding": 5,
+            "itemGap": 10,
+            "textAlign": "auto",
+            "textVerticalAlign": "auto",
+            "triggerEvent": false
+        }
+    ]
+};
+        chart_f2597c0d844b41e89f6f3fda14ba8caf.setOption(option_f2597c0d844b41e89f6f3fda14ba8caf);
+            window.addEventListener('resize', function(){
+                chart_f2597c0d844b41e89f6f3fda14ba8caf.resize();
+            })
+    </script>
+</body>
+</html>
+
+    <div class="note">未来 7 天最大相对湿度为 95%（10月26日（周一）），预计降水量最多的一天是 10月24日（周六）（0.0 mm）。</div>
   </div>
 
   <div class="card">
@@ -377,11 +676,11 @@
     
 </head>
 <body >
-    <div id="d2ed4288f49343f39aaf919e19afae43" class="chart-container" style="width:100%; height:420px; "></div>
+    <div id="31e10b7c59cb4798b2d5be2071e17c12" class="chart-container" style="width:100%; height:350px; "></div>
     <script>
-        var chart_d2ed4288f49343f39aaf919e19afae43 = echarts.init(
-            document.getElementById('d2ed4288f49343f39aaf919e19afae43'), 'white', {renderer: 'canvas', locale: 'ZH'});
-        var option_d2ed4288f49343f39aaf919e19afae43 = {
+        var chart_31e10b7c59cb4798b2d5be2071e17c12 = echarts.init(
+            document.getElementById('31e10b7c59cb4798b2d5be2071e17c12'), 'white', {renderer: 'canvas', locale: 'ZH'});
+        var option_31e10b7c59cb4798b2d5be2071e17c12 = {
     "animation": true,
     "animationThreshold": 2000,
     "animationDuration": 1000,
@@ -404,8 +703,8 @@
                 3,
                 3,
                 3,
-                3,
-                3
+                2,
+                2
             ],
             "realtimeSort": false,
             "showBackground": false,
@@ -518,13 +817,13 @@
             "animationEasingUpdate": "cubicOut",
             "animationDelayUpdate": 0,
             "data": [
-                "24\u65e5\uff08\u4eca\u5929\uff09",
-                "25\u65e5\uff08\u660e\u5929\uff09",
-                "26\u65e5\uff08\u540e\u5929\uff09",
-                "27\u65e5\uff08\u5468\u4e8c\uff09",
-                "28\u65e5\uff08\u5468\u4e09\uff09",
-                "29\u65e5\uff08\u5468\u56db\uff09",
-                "30\u65e5\uff08\u5468\u4e94\uff09"
+                "10\u670824\u65e5\uff08\u5468\u516d\uff09",
+                "10\u670825\u65e5\uff08\u5468\u65e5\uff09",
+                "10\u670826\u65e5\uff08\u5468\u4e00\uff09",
+                "10\u670827\u65e5\uff08\u5468\u4e8c\uff09",
+                "10\u670828\u65e5\uff08\u5468\u4e09\uff09",
+                "10\u670829\u65e5\uff08\u5468\u56db\uff09",
+                "10\u670830\u65e5\uff08\u5468\u4e94\uff09"
             ]
         }
     ],
@@ -560,6 +859,9 @@
             "animationDelayUpdate": 0
         }
     ],
+    "color": [
+        "#26a69a"
+    ],
     "title": [
         {
             "show": true,
@@ -574,15 +876,14 @@
         }
     ]
 };
-        chart_d2ed4288f49343f39aaf919e19afae43.setOption(option_d2ed4288f49343f39aaf919e19afae43);
+        chart_31e10b7c59cb4798b2d5be2071e17c12.setOption(option_31e10b7c59cb4798b2d5be2071e17c12);
             window.addEventListener('resize', function(){
-                chart_d2ed4288f49343f39aaf919e19afae43.resize();
+                chart_31e10b7c59cb4798b2d5be2071e17c12.resize();
             })
     </script>
 </body>
 </html>
 
-    <div class="note">未来 7 天风力整体平稳，最大风力出现在 24日（今天）（<3级，北风）。</div>
   </div>
 
   <div class="footer">本页面由 Python 爬虫 + pyecharts 自动生成 · 重新运行脚本即可更新数据</div>

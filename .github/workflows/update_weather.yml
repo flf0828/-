@@ -1,0 +1,36 @@
+name: Update Weather Data
+
+on:
+  schedule:
+    # 每天 UTC 时间 0 点（北京时间早上 8 点）运行
+    - cron: '0 0 * * *'
+  workflow_dispatch:  # 允许你在 GitHub 网页上手动点击运行
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # 允许 Action 把更新后的文件推回仓库
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run weather script
+        run: python main.py
+
+      - name: Commit and push updated HTML
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add weather_report.html
+          git commit -m "Auto update weather report" || exit 0
+          git push
